@@ -1,4 +1,13 @@
 {% extends "layout.html" %}
 {% block content %}
-    <h1>About Page</h1>
+<img src="{{url_for('static', filename='logo.png')}}" align="middle", width=400, height=400 />
+<h1>About Music Cloud</h1>
+<p>Music Cloud is a website that recognises music around you. It is the best way
+    to discover, explore, and share the music you love.
+
+    In addition to indentifying music aroud you, it also picks up the
+    instruments that are played in the song.
+
+    Along with that, it will also provide lessons on how to play that song
+    with your desired instrument.</p>
 {% endblock content %}
